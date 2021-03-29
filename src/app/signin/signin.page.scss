@@ -1,0 +1,20 @@
+ion-list{
+    background: transparent;
+    transform: translateY(10vh);
+    ion-list-header{
+        margin-bottom: 5vh;
+        letter-spacing: 3px;
+        ion-label{
+            font-weight: bold;
+            font-size: 3rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+    ion-item{
+        border: 1px solid var(--ion-color-medium);
+    }
+}
+.forgot-password{
+    text-align: right;
+    font-size: 14px;
+}

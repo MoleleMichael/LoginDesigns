@@ -1,0 +1,49 @@
+ion-content{
+    // --background:linear-gradient(45deg, #174dd6 0%, var(--ion-color-primary) 100%);
+    overflow: hidden;
+    --overflow: hidden;
+}
+.circle{
+    height: 600px;
+    width: 600px;
+    background: linear-gradient(90deg, #7590d6 0%, var(--ion-color-primary) 100%);
+    // background: var(--ion-color-white);
+    box-shadow: 0px 1px 10px rgba(98, 140, 255, 0.5);
+    border-radius: 50%;
+}
+
+.circle1{
+    margin-left: -200px;
+    margin-top: -250px;
+    margin-bottom: 10px;
+}
+.circle2{
+    margin-left: -15px;
+    margin-top: -20px;
+}
+
+.container{
+    position: absolute;
+    top: 1vh;
+    left: 9vw;
+    align-items: center;
+}
+.itemDesign{
+    border: 2px solid var(--ion-color-medium);
+    border-radius: 20px;
+}
+.user{
+    font-size: 5rem;
+    margin-left: 30vw;
+}
+.forgot-password{
+    text-align: center;
+    color: #ffffff;
+}
+.align{
+    position: absolute;
+    width: 65%;
+    margin: auto;
+    bottom: 18vh;
+    left: 16vw;
+}
